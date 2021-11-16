@@ -1,6 +1,24 @@
 Requirements:
     Introduction:
+        The project aims to build a game, Oskar, which is based on logic and chance.
+
+        Oskar is a two player game with a set of three grids of undarkened circles(3 circles in the first grid, 5 circles in the second, 7 in the third).
+
+        On her turn, a player should pick one of the three grids and remove a nonzero number of circles from the chosen grid.
+
+        The player has to pick atleast one circle and cannot skip his turn.
+
+        This game continues until only one circle remains.
+
+        The player whose turn it is to play when only one circle remains is the loser. 
+
+        For the reader's better understanding, given below is the intended appearance of the initial state of the game before either of the user makes a move:
+                          O O     //    O O O   //    O O O O
+                           O     //      O O   //      O O O 
+    
+
     Research:
+        
     Cost and Features and Timeline:
     Defining Our System:
     SWOT Analysis:
