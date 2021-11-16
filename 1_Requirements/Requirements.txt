@@ -49,6 +49,9 @@ Requirements:
         However, the game at its core is a two player game with the end result of forcing the user to remove the last circle remaining
 
     SWOT Analysis:
+        Strengths of the application include planning ahead for undesired input formats, allowing for the voluntary termination of the game by either user among others.
+        The weaknesses would involve not being as visually appeasing as possible because of the use of C alone to build.
+        Threats would involve not identifying input cases that could crash the project.
 
     4W's and 1'H:
         Who:
@@ -57,7 +60,7 @@ Requirements:
         Where:
         How:
 
-        
+
     Detail requirements:
         High Level Requirements:
         Low Level Requirements:
