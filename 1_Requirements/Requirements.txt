@@ -12,12 +12,7 @@ Requirements:
 
         The player whose turn it is to play when only one circle remains is the loser. 
 
-        For the reader's better understanding, given below is the intended appearance of the initial state of the game before either of the user makes a move:
-
-
-                                                               O O     //    O O O    //    O O O O
-                                                                O     //      O O    //      O O O 
-    
+       
 
     Research:
         A major part of my research included going through the source code of simple gaming projects. 
@@ -29,14 +24,40 @@ Requirements:
         The focus of building this project would also be on making the user work as less as possible. 
                 
     Cost and Features and Timeline:
+         For the reader's better understanding, given below is the intended appearance of the initial state of the game before either of the user makes a move:
+
+
+                                                               O O     //    O O O    //    O O O O
+                                                                O     //      O O    //      O O O
+         
+
+         Our system initially takes the names of both the players playing the game. 
+         One of the two players is picked at random by the game.
+         The player chosen to begin the game is prompted to start.
+         The input expected from the user is two single digit numbers:
+         1) The grid to be chosen(Choices 3, 5 and 7)
+         2) The number of circles to be removed in the user's turn(range could vary from 1 to the amount of circles not removed already by the other user)
+         After every player's turn, the status of the circles remaining in each grid is displayed.
+         During the process of building the project, instead of the grid setup, simply the number of circles present in each grid would be displayed.
+         After the program gets executed successfully with numbers, a program which takes the status of the grid in numbers and displays the grid is designed.
+         Instead of removing the circles, the circles could simply be marked to make the coding easier.          
+
     Defining Our System:
+        The application shall facilitate the game whose rules have been specified above perfectly. 
+        The gaming application shall decrease the odds of making the game partial by picking the user at random.
+        The application shall be updated to include multiple variations of the original game including the number of grids available. 
+        However, the game at its core is a two player game with the end result of forcing the user to remove the last circle remaining
+
     SWOT Analysis:
+
     4W's and 1'H:
         Who:
         What:
         When:
         Where:
         How:
+
+        
     Detail requirements:
         High Level Requirements:
         Low Level Requirements:
