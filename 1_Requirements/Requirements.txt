@@ -1,11 +1,18 @@
 Requirements:
-    Build your Requirements:
-        Identify Feature:
-        State Of Art:
-            Ageing - Time:
-            Ageing - Cost / Feature Evolution
-        Identify your Requirements:
-        4 W and 1 H:
-        SWOT Analysis:
-    Derive High Level Requirements
-    Derive Low Level Requirements
+    Introduction:
+    Research:
+    Cost and Features and Timeline:
+    Defining Our System:
+    SWOT Analysis:
+    4W's and 1'H:
+        Who:
+        What:
+        When:
+        Where:
+        How:
+    Detail requirements:
+        High Level Requirements:
+        Low Level Requirements:
+        
+
+
