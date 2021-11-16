@@ -13,8 +13,10 @@ Requirements:
         The player whose turn it is to play when only one circle remains is the loser. 
 
         For the reader's better understanding, given below is the intended appearance of the initial state of the game before either of the user makes a move:
-                          O O     //    O O O   //    O O O O
-                           O     //      O O   //      O O O 
+
+
+                                                               O O     //    O O O   //    O O O O
+                                                                O     //      O O   //      O O O 
     
 
     Research:
