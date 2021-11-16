@@ -20,7 +20,14 @@ Requirements:
     
 
     Research:
-        
+        A major part of my research included going through the source code of simple gaming projects. 
+        Most of the reviewed applications were built using Javascript and HTML. 
+        Among the reviewed games, a game called Tic-Tac-Toe was reviewed because of a grid like structure that is part of the game.
+        How the structure was achieved and the code behind the appearance was noted.
+        Our game, Oskar, uses a similar grid - like appearance. 
+        User interaction in the gaming projects was also observed, with user interaction being kept as low as optimally possible.
+        The focus of building this project would also be on making the user work as less as possible. 
+                
     Cost and Features and Timeline:
     Defining Our System:
     SWOT Analysis:
