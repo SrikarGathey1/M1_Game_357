@@ -72,10 +72,10 @@ High Level Requirements:
 
 | ID | Description                                                                              |Status|
 |:--:|:----------------------------------------------------------------------------------------:|:----:|
-|  1 |  The game shall have a counter to keep track of the total wins among both the users.     |      |
-|  2 |  The game shall pick one of the two players at random to begin the game.                 |      |
-|  3 |  The game shall terminate whenever either of the player chooses to terminate the game.   |      |
-|  4 |  The game shall display a rulebook whenever either of the players has a doubt to resolve |      |
+|  1 |  The game shall have a counter to keep track of the total wins among both the users.     | Future |
+|  2 |  The game shall pick one of the two players at random to begin the game.                 | Future |
+|  3 |  The game shall terminate whenever either of the player chooses to terminate the game.   | Future |
+|  4 |  The game shall display a rulebook whenever either of the players has a doubt to resolve | Future |
 
 
 
