@@ -1,4 +1,6 @@
-High Level Test Plan:
+# Test Plan:
+
+## High Level Test Plan:
 
 |Test ID|                            Description                           |  Exp I/P   |  Exp O/P  |  Actual Output |  Type Of Test   |
 |:-----:|:----------------------------------------------------------------:|:----------:|:---------:|:--------------:|:---------------:|
@@ -8,7 +10,7 @@ High Level Test Plan:
         
 
 
-Low level test plan:
+## Low level test plan:
 
 |Test ID|                            Description                           |  Exp I/P   |  Exp O/P  |  Actual Output |  Type Of Test   |
 |:-----:|:----------------------------------------------------------------:|:----------:|:---------:|:--------------:|:---------------:|
