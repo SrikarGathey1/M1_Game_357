@@ -25,8 +25,8 @@ The focus of building this project would also be on making the user work as less
                 
 ## Cost and Features and Timeline:
 For the reader's better understanding, given below is the intended appearance of the initial state of the game before either of the user makes a move:
-                                 O O     //    O O O    //    O O O O
-                                 
+
+                                 O O     //    O O O    //    O O O O 
                                   O     //      O O    //      O O O
          
 
