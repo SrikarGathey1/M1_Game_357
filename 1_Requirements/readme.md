@@ -87,8 +87,3 @@ Requirements:
         |  4 | The game ends when only one circle remains in the entire grid, the player whose turn just completed is winner.  |Future|
 
 
-        |Test ID|                            Description                           |  Exp I/P   |  Exp O/P  |  Actual Output |  Type Of Test   |
-|:-----:|:----------------------------------------------------------------:|:----------:|:---------:|:--------------:|:---------------:|
-| H_01  |                                                                  |            |           |                |Requirement based|
-| H_02  |                                                                  |            |           |                |Scenario Based   |
-| H_03  |                                                                  |            |           |                |Boundary Based   |
