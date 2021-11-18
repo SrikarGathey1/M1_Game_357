@@ -78,17 +78,13 @@ High Level Requirements:
 |  4 |  The game shall display a rulebook whenever either of the players has a doubt to resolve | Future |
 
 
-
-
-
-    Low Level Requirements:
-
+Low Level Requirements:
         
-        | ID | Description                                                                                                     |Status|
-        |:--:|:---------------------------------------------------------------------------------------------------------------:|:----:|
-        |  1 | The game shall take two inputs, the number of circles and the chosen grid/cluster to remove them from.          |Future|
-        |  2 | The game shall terminate when either of the user types in "exit" and the other player is declared winner.       |Future|
-        |  3 | The game shall display the grid whenever either user makes a move.                                              |Future|
-        |  4 | The game ends when only one circle remains in the entire grid, the player whose turn just completed is winner.  |Future|
+| ID | Description                                                                                                     |Status|
+|:--:|:---------------------------------------------------------------------------------------------------------------:|:----:|
+|  1 | The game shall take two inputs, the number of circles and the chosen grid/cluster to remove them from.          |Future|
+|  2 | The game shall terminate when either of the user types in "exit" and the other player is declared winner.       |Future|
+|  3 | The game shall display the grid whenever either user makes a move.                                              |Future|
+|  4 | The game ends when only one circle remains in the entire grid, the player whose turn just completed is winner.  |Future|
 
 
