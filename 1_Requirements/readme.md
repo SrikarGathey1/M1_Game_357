@@ -68,20 +68,17 @@ Requirements:
 
     Detail requirements:
         High Level Requirements:
-        | ID | Description                                  | Status |
-        |:--:|:--------------------------------------------:| -----:|
-        |  1 | The game shall have                                | $1600 |
-        |  2 | centered                                     |   $12 |
-        |  3 | are neat                                     |    $1 |
+
+        | ID | Description                                                                                                     |Status|
+        |:--:|:---------------------------------------------------------------------------------------------------------------:|-----:|
+        |  1 | The game shall have a counter to keep track of the total wins among both the users.                             |Future|
+        |  2 | The game shall pick one of the two players at random to begin the game.                                         |Future|
+        |  3 | The game shall terminate whenever either of the player chooses to terminate the game                            |Future|
+        |  4 | The game shall display a rulebook whenever either of the players has a doubt to resolve                         |Future|
+
 
         Low Level Requirements:
         
-        | Plugin | README |
-        | ------ | ------ |
-        | Dropbox | [plugins/dropbox/README.md][PlDb] |
-        | GitHub | [plugins/github/README.md][PlGh] |
-        | Google Drive | [plugins/googledrive/README.md][PlGd] |
-        | OneDrive | [plugins/onedrive/README.md][PlOd] |
-        | Medium | [plugins/medium/README.md][PlMe] |
-        | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+        
+        
 
