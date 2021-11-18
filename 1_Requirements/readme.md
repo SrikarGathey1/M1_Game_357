@@ -68,9 +68,12 @@ Requirements:
 
     Detail requirements:
         High Level Requirements:
-        ID Description Status
-        __ ___________ ___________
-        1
+        | ID | Description                                  | Status |
+        |:--:|:--------------------------------------------:| -----:|
+        |  1 | The game shall have                                | $1600 |
+        |  2 | centered                                     |   $12 |
+        |  3 | are neat                                     |    $1 |
+
         Low Level Requirements:
         
 
