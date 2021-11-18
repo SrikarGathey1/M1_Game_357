@@ -23,10 +23,11 @@ Our game, Oskar, uses a similar grid - like appearance.
 User interaction in the gaming projects was also observed, with user interaction being kept as low as optimally possible.
 The focus of building this project would also be on making the user work as less as possible. 
                 
-##Cost and Features and Timeline:
+## Cost and Features and Timeline:
 For the reader's better understanding, given below is the intended appearance of the initial state of the game before either of the user makes a move:
-                          O O     //    O O O    //    O O O O
-                           O     //      O O    //      O O O
+                                 O O     //    O O O    //    O O O O
+                                 
+                                  O     //      O O    //      O O O
          
 
 Our system initially takes the names of both the players playing the game. 
