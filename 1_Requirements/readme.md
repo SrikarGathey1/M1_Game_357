@@ -69,6 +69,7 @@ Requirements:
     Detail requirements:
      High Level Requirements:
 
+
            | ID | Description                                                                              |Status|
            |:--:|:----------------------------------------------------------------------------------------:|:----:|
            |  1 |  The game shall have a counter to keep track of the total wins among both the users.     |      |
@@ -78,6 +79,7 @@ Requirements:
 
 
     Low Level Requirements:
+    
         
         | ID | Description                                                                                                     |Status|
         |:--:|:---------------------------------------------------------------------------------------------------------------:|:----:|
