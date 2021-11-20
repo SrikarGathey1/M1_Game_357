@@ -63,16 +63,16 @@ int main()
   {
       printf("%s shall begin the game. \n\n", player2);
   }
+  display_circle(3, 5, 7);
   game = gameplay(player1, player2);
-  if(game == 0)
+  if(game == 1)
   {
-      printf("%s is the winner!", player1);
+      printf("%s is the winner", player1);
   }
   else
   {
-      printf("%s is the winner!", player2);
+      printf("%s is the winner", player2);
   }
   
-
   return 0;
 }
