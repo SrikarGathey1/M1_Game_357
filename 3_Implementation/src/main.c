@@ -69,6 +69,10 @@ int main()
   {
       printf("%s is the winner", player1);
   }
+  else if(game == -1)
+  {
+      printf("Game Terminated.");
+  }
   else
   {
       printf("%s is the winner", player2);
@@ -76,3 +80,6 @@ int main()
   
   return 0;
 }
+
+
+

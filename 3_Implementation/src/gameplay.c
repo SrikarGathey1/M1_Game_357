@@ -37,7 +37,7 @@ int take_grid(int three, int five, int seven)
         if(seven == 0)
         {
             printf("This grid is empty. Choose another grid;\n");
-            take_grid(three, five, seven);
+            return take_grid(three, five, seven);
         }
         else
         {
@@ -51,7 +51,6 @@ int take_grid(int three, int five, int seven)
     }
     else if(grid == 1)
     {
-        printf("Game Terminated");
         return -1;
     }
     else if(g == 0)
@@ -61,12 +60,16 @@ int take_grid(int three, int five, int seven)
     else
     {
         printf("Not a valid grid value, choose among 3, 5 and 7.\n");
-        take_grid(three, five, seven);
+        return take_grid(three, five, seven);
     }
 }
 
 int take_number(int three, int five, int seven, int grid)
 {
+    if(grid == 1)
+    {
+        return -1;
+    }
     int number;
     int available = three + five + seven;
     printf("Enter the number of circles to be removed:");
@@ -112,9 +115,8 @@ int take_number(int three, int five, int seven, int grid)
         rules();
         take_number(three, five, seven, grid);
     }
-    if(number == 1)
+    if(number == -1)
     {
-        printf("Game Terminated");
         return -1;
     }
     
@@ -139,7 +141,16 @@ int gameplay(char *player1, char *player2)
             printf("Player %s it is your turn.\n", player2);          
         }
         grid = take_grid(three, five, seven);
+        if(grid == -1)
+        {
+            return -1;
+        }
         number = take_number(three, five, seven, grid);
+        if(number == -1)
+        {
+            return -1;
+        }
+
         if(grid == 3)
         {
             if(number <= three)
