@@ -2,16 +2,18 @@
 # target: dependencies
 #        action
 
+
+
 output: main.o display.o gameplay.o
 	gcc main.o display.o gameplay.o -o output
 
-main.o: main.c
+main.o: src/main.c
 	gcc -c main.c
 
-display.o: display.c display.h
+display.o: src/display.c inc/display.h
 	gcc -c display.c
 
-gameplay.o: gameplay.c gameplay.h
+gameplay.o: src/gameplay.c inc/gameplay.h
 	gcc -c gameplay.c
 
 clean:

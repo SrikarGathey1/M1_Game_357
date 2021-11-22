@@ -4,9 +4,9 @@
 
 |Test ID|                            Description                           |  Exp I/P   |  Exp O/P  |  Actual Output |  Type Of Test   |
 |:-----:|:----------------------------------------------------------------:|:----------:|:---------:|:--------------:|:---------------:|
-| H_01  |  Prints the rulebook whenever the user presses 1                 |     1      |  rules are printed(rulebook())         |  rules are printed as expected              |Requirement based|
-| H_02  |                                                                  |            |           |                |Scenario Based   |
-| H_03  |                                                                  |            |           |                |Boundary Based   |
+| H_01  | Prints the rulebook whenever the user presses 0.                 |     0      |Rules are printed(rulebook() function)      |Rules are printed as expected              |Requirement based|
+| H_02  | Output states for all the different outputs defined              |Any game state| Equivalent grid representation|Expected grid representation|Scenario Based|
+| H_03  |                                                                  |            |           |                |Boundary Based|
         
 
 
