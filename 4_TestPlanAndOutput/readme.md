@@ -4,7 +4,7 @@
 
 |Test ID|                            Description                           |  Exp I/P   |  Exp O/P  |  Actual Output |  Type Of Test   |
 |:-----:|:----------------------------------------------------------------:|:----------:|:---------:|:--------------:|:---------------:|
-| H_01  |                                                                  |            |           |                |Requirement based|
+| H_01  |  Prints the rulebook whenever the user presses 1                 |     1       |  rules are printed(rulebook())         |  rules are printed as expected              |Requirement based|
 | H_02  |                                                                  |            |           |                |Scenario Based   |
 | H_03  |                                                                  |            |           |                |Boundary Based   |
         
