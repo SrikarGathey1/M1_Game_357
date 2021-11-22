@@ -4,4 +4,4 @@
 
 ## Low Level Design
 
-![Low Level Design]("/6_ImagesAndVideos/low_level.png")
+![Low Level Design](/6_ImagesAndVideos/github_low_level.png)
