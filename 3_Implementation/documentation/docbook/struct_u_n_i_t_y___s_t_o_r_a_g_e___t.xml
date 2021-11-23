@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_u_n_i_t_y___s_t_o_r_a_g_e___t" xml:lang="en-US">
+<title>UNITY_STORAGE_T Struct Reference</title>
+<indexterm><primary>UNITY_STORAGE_T</primary></indexterm>
+<simplesect>
+    <title>Data Fields    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a190c9e7550689c6dceedff539e650336"/>const char * <emphasis role="strong">TestFile</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a6779e1e7dc5d26835d5ca7009242e77c"/>const char * <emphasis role="strong">CurrentTestName</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a83cef77fb47897cfe6c4dba18d9f36c0"/>const char * <emphasis role="strong">CurrentDetail1</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a46f31dad8da75fe0c1ece891fbb3208b"/>const char * <emphasis role="strong">CurrentDetail2</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1af263a120c12a489e9310ef9f36444128"/>UNITY_LINE_TYPE <emphasis role="strong">CurrentTestLineNumber</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a82127e77cd34e1a1c2b0281e3597d5ba"/>UNITY_COUNTER_TYPE <emphasis role="strong">NumberOfTests</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a09833b8f72da6d7982f37ebc33111252"/>UNITY_COUNTER_TYPE <emphasis role="strong">TestFailures</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a4fd439067fb0c1a82a5219077a513cda"/>UNITY_COUNTER_TYPE <emphasis role="strong">TestIgnores</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a60446b592f7989b0f639da4132032a43"/>UNITY_COUNTER_TYPE <emphasis role="strong">CurrentTestFailed</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1ad69a0f6ea7ca97f43b963c8218eca9d6"/>UNITY_COUNTER_TYPE <emphasis role="strong">CurrentTestIgnored</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1add1ad6305e99da2ddf841e32dfbd8bd5"/>jmp_buf <emphasis role="strong">AbortFrame</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/Users/venka/Desktop/C_Project/3_Implementation/unity/unity_internals.h</section>

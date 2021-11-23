@@ -44,7 +44,7 @@ PROJECT_NUMBER         =
 # for a project that appears at the top of each page and should give viewer a
 # quick idea about the purpose of the project. Keep the description short.
 
-PROJECT_BRIEF          = "An interactive two player game."
+PROJECT_BRIEF          = "An interactive two - player game."
 
 # With the PROJECT_LOGO tag one can specify a logo or an icon that is included
 # in the documentation. The maximum height of the logo should not exceed 55
@@ -691,26 +691,26 @@ STRICT_PROTO_MATCHING  = NO
 # list. This list is created by putting \todo commands in the documentation.
 # The default value is: YES.
 
-GENERATE_TODOLIST      = NO
+GENERATE_TODOLIST      = YES
 
 # The GENERATE_TESTLIST tag can be used to enable (YES) or disable (NO) the test
 # list. This list is created by putting \test commands in the documentation.
 # The default value is: YES.
 
-GENERATE_TESTLIST      = NO
+GENERATE_TESTLIST      = YES
 
 # The GENERATE_BUGLIST tag can be used to enable (YES) or disable (NO) the bug
 # list. This list is created by putting \bug commands in the documentation.
 # The default value is: YES.
 
-GENERATE_BUGLIST       = NO
+GENERATE_BUGLIST       = YES
 
 # The GENERATE_DEPRECATEDLIST tag can be used to enable (YES) or disable (NO)
 # the deprecated list. This list is created by putting \deprecated commands in
 # the documentation.
 # The default value is: YES.
 
-GENERATE_DEPRECATEDLIST= NO
+GENERATE_DEPRECATEDLIST= YES
 
 # The ENABLED_SECTIONS tag can be used to enable conditional documentation
 # sections, marked by \if <section_label> ... \endif and \cond <section_label>
@@ -871,7 +871,7 @@ WARN_LOGFILE           =
 # spaces. See also FILE_PATTERNS and EXTENSION_MAPPING
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  = C:\Users\venka\Desktop\C_Project\3_Implementation\src
+INPUT                  = C:\Users\venka\Desktop\C_Project\3_Implementation
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
@@ -1206,7 +1206,7 @@ CLANG_DATABASE_PATH    =
 # classes, structs, unions or interfaces.
 # The default value is: YES.
 
-ALPHABETICAL_INDEX     = NO
+ALPHABETICAL_INDEX     = YES
 
 # In case all classes in a project start with a common prefix, all classes will
 # be put under the same header in the alphabetical index. The IGNORE_PREFIX tag
@@ -1579,7 +1579,7 @@ ECLIPSE_DOC_ID         = org.doxygen.Project
 # The default value is: NO.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-DISABLE_INDEX          = YES
+DISABLE_INDEX          = NO
 
 # The GENERATE_TREEVIEW tag is used to specify whether a tree-like index
 # structure should be generated to display hierarchical information. If the tag
@@ -1596,7 +1596,7 @@ DISABLE_INDEX          = YES
 # The default value is: NO.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-GENERATE_TREEVIEW      = YES
+GENERATE_TREEVIEW      = NO
 
 # When both GENERATE_TREEVIEW and DISABLE_INDEX are set to YES, then the
 # FULL_SIDEBAR option determines if the side bar is limited to only the treeview
@@ -2231,7 +2231,7 @@ PERLMOD_MAKEVAR_PREFIX =
 # C-preprocessor directives found in the sources and include files.
 # The default value is: YES.
 
-ENABLE_PREPROCESSING   = NO
+ENABLE_PREPROCESSING   = YES
 
 # If the MACRO_EXPANSION tag is set to YES, doxygen will expand all macro names
 # in the source code. If set to NO, only conditional compilation will be

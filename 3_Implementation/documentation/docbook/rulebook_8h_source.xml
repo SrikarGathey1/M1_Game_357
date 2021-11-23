@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_rulebook_8h_source" xml:lang="en-US">
+<title>rulebook.h</title>
+<indexterm><primary>C:/Users/venka/Desktop/C_Project/3_Implementation/inc/rulebook.h</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered">1 
+17 <emphasis role="keywordtype">char</emphasis>*&#32;<link linkend="_rulebook_8h_1ab6156a17147ee4ce7a4d45273b3da0b8">rulebook</link>();
+</programlisting></section>

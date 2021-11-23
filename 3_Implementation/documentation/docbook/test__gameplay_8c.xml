@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_test__gameplay_8c" xml:lang="en-US">
+<title>C:/Users/venka/Desktop/C_Project/3_Implementation/test/test_gameplay.c File Reference</title>
+<indexterm><primary>C:/Users/venka/Desktop/C_Project/3_Implementation/test/test_gameplay.c</primary></indexterm>
+<para>
+
+<para>To test gameplay function. </para>
+ 
+</para>
+<programlisting linenumbering="unnumbered">#include &lt;stdio.h&gt;
+#include &quot;gameplay.h&quot;
+#include &quot;unity.h&quot;
+</programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_test__gameplay_8c_1a63326a1b70b6e3f070e51687798e02de"/>void <emphasis role="strong">setUp</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_test__gameplay_8c_1ab804e0f66def63262c1d6b4e3d2a2bd7"/>void <emphasis role="strong">tearDown</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_test__gameplay_8c_1a2ddbd7f9a10672cdc970bf52f3cdb96d"/>void <emphasis role="strong">test_grid</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_test__gameplay_8c_1a9eb544caa6ba2e448e12edf496a492ab"/>void <emphasis role="strong">test_number</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_test__gameplay_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4"/>int <emphasis role="strong">main</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>To test gameplay function. </para>
+
+<para><formalpara><title>Author</title>
+
+<para>Srikar Gade </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>0.1 </para>
+</formalpara>
+<formalpara><title>Date</title>
+
+<para>2021-11-24</para>
+</formalpara>
+<formalpara><title>Copyright</title>
+
+<para>Copyright (c) 2021 </para>
+</formalpara>
+</para>
+</section>
+</section>

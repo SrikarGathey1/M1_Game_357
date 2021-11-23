@@ -1,34 +1,33 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_gameplay_8c" xml:lang="en-US">
-<title>C:/Users/venka/Desktop/C_Project/3_Implementation/src/gameplay.c File Reference</title>
-<indexterm><primary>C:/Users/venka/Desktop/C_Project/3_Implementation/src/gameplay.c</primary></indexterm>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_gameplay_8h" xml:lang="en-US">
+<title>C:/Users/venka/Desktop/C_Project/3_Implementation/inc/gameplay.h File Reference</title>
+<indexterm><primary>C:/Users/venka/Desktop/C_Project/3_Implementation/inc/gameplay.h</primary></indexterm>
 <para>
 
-<para>To facilitate game play. </para>
+<para>Function declarations for the functions whose definitions are in <link linkend="_gameplay_8c">gameplay.c</link>. </para>
  
 </para>
-<programlisting linenumbering="unnumbered">#include &lt;stdio.h&gt;
-</programlisting><simplesect>
+<simplesect>
     <title>Functions    </title>
         <itemizedlist>
-            <listitem><para>int <link linkend="_gameplay_8c_1ad2482a23d1ab961bd00ad653d66ab18c">take_grid</link> (int three, int five, int seven)</para>
+            <listitem><para>int <link linkend="_gameplay_8h_1a55f6bfa0bf687995310cc9f1da39d469">gameplay</link> (char *, char *)</para>
+
+<para>to facilitate game play and keep track of the available circles and the player moves </para>
+</listitem>
+            <listitem><para>int <link linkend="_gameplay_8h_1a24beadb21420c2f131830cc020a3c728">take_grid</link> (int, int, int)</para>
 
 <para>to take a valid grid value and prompt the user until a valid value is entered </para>
 </listitem>
-            <listitem><para>int <link linkend="_gameplay_8c_1a98c5566fb1d1078ce42c4000b09955cd">take_number</link> (int three, int five, int seven, int grid)</para>
+            <listitem><para>int <link linkend="_gameplay_8h_1a1294d68319ed849968ac93252df1d316">take_number</link> (int, int, int, int)</para>
 
-<para>to accept a valid value of number of circles to be removed </para>
-</listitem>
-            <listitem><para>int <link linkend="_gameplay_8c_1a1f4ae9c18dd75e1cdb5f4052e9146a85">gameplay</link> (char *player1, char *player2)</para>
-
-<para>to facilitate game play and keep track of the available circles and the player moves </para>
+<para>to take a valid number of circles to be removed from the corresponding grid </para>
 </listitem>
         </itemizedlist>
 </simplesect>
 <section>
 <title>Detailed Description</title>
 
-<para>To facilitate game play. </para>
+<para>Function declarations for the functions whose definitions are in <link linkend="_gameplay_8c">gameplay.c</link>. </para>
 
 <para><formalpara><title>Author</title>
 
@@ -50,16 +49,20 @@
 </section>
 <section>
 <title>Function Documentation</title>
-<anchor xml:id="_gameplay_8c_1a1f4ae9c18dd75e1cdb5f4052e9146a85"/><section>
+<anchor xml:id="_gameplay_8h_1a55f6bfa0bf687995310cc9f1da39d469"/><section>
     <title>gameplay()</title>
-<indexterm><primary>gameplay</primary><secondary>gameplay.c</secondary></indexterm>
-<indexterm><primary>gameplay.c</primary><secondary>gameplay</secondary></indexterm>
+<indexterm><primary>gameplay</primary><secondary>gameplay.h</secondary></indexterm>
+<indexterm><primary>gameplay.h</primary><secondary>gameplay</secondary></indexterm>
 <para><computeroutput>int gameplay (char * player1, char * player2)</computeroutput></para><para>
 
 <para>to facilitate game play and keep track of the available circles and the player moves </para>
 </para>
 
-<para>
+<para><formalpara><title>Returns</title>
+
+<para>int number of moves played by both the players combined. Helps determine the winner at the end of the game.</para>
+</formalpara>
+
                 <formalpara>
                     <title>
 Parameters</title>
@@ -121,16 +124,20 @@ Parameters</title>
 </formalpara>
 </para>
 </section>
-<anchor xml:id="_gameplay_8c_1ad2482a23d1ab961bd00ad653d66ab18c"/><section>
+<anchor xml:id="_gameplay_8h_1a24beadb21420c2f131830cc020a3c728"/><section>
     <title>take_grid()</title>
-<indexterm><primary>take_grid</primary><secondary>gameplay.c</secondary></indexterm>
-<indexterm><primary>gameplay.c</primary><secondary>take_grid</secondary></indexterm>
+<indexterm><primary>take_grid</primary><secondary>gameplay.h</secondary></indexterm>
+<indexterm><primary>gameplay.h</primary><secondary>take_grid</secondary></indexterm>
 <para><computeroutput>int take_grid (int three, int five, int seven)</computeroutput></para><para>
 
 <para>to take a valid grid value and prompt the user until a valid value is entered </para>
 </para>
 
-<para>0 if the grid is invalid 1 if valid 2 if terminate if 0 is returned the prompt asking for grid has to be repeated again 
+<para><formalpara><title>Returns</title>
+
+<para>int grid value</para>
+</formalpara>
+0 if the grid is invalid 1 if valid 2 if terminate if 0 is returned the prompt asking for grid has to be repeated again 
                 <formalpara>
                     <title>
 Parameters</title>
@@ -177,16 +184,20 @@ Parameters</title>
 </formalpara>
 </para>
 </section>
-<anchor xml:id="_gameplay_8c_1a98c5566fb1d1078ce42c4000b09955cd"/><section>
+<anchor xml:id="_gameplay_8h_1a1294d68319ed849968ac93252df1d316"/><section>
     <title>take_number()</title>
-<indexterm><primary>take_number</primary><secondary>gameplay.c</secondary></indexterm>
-<indexterm><primary>gameplay.c</primary><secondary>take_number</secondary></indexterm>
+<indexterm><primary>take_number</primary><secondary>gameplay.h</secondary></indexterm>
+<indexterm><primary>gameplay.h</primary><secondary>take_number</secondary></indexterm>
 <para><computeroutput>int take_number (int three, int five, int seven, int grid)</computeroutput></para><para>
 
-<para>to accept a valid value of number of circles to be removed </para>
+<para>to take a valid number of circles to be removed from the corresponding grid </para>
 </para>
 
-<para>to take a valid number of circles to be removed from the corresponding grid</para>
+<para><formalpara><title>Returns</title>
+
+<para>int number of circles to be removed</para>
+</formalpara>
+to take a valid number of circles to be removed from the corresponding grid</para>
 
 <para>
                 <formalpara>

@@ -4,10 +4,30 @@
     <title>Oskar</title>
     </info>
 <chapter>
+    <title>readme</title>
+    <xi:include href="md_readme.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Data Structure Documentation</title>
+    <xi:include href="struct_u_n_i_t_y___s_t_o_r_a_g_e___t.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
     <title>File Documentation</title>
+    <xi:include href="display_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="display_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="gameplay_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="gameplay_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="rulebook_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="rulebook_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     <xi:include href="display_8c.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     <xi:include href="gameplay_8c.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     <xi:include href="main_8c.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="rulebook_8c.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="test__display_8c.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="test__gameplay_8c.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="test__rulebook_8c.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="unity_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="unity__internals_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </chapter>
 <index/>
 </book>

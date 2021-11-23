@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_test__rulebook_8c" xml:lang="en-US">
+<title>C:/Users/venka/Desktop/C_Project/3_Implementation/test/test_rulebook.c File Reference</title>
+<indexterm><primary>C:/Users/venka/Desktop/C_Project/3_Implementation/test/test_rulebook.c</primary></indexterm>
+<para>
+
+<para>to test <link linkend="_rulebook_8c">rulebook.c</link> file </para>
+ 
+</para>
+<programlisting linenumbering="unnumbered">#include &lt;stdio.h&gt;
+#include &quot;rulebook.h&quot;
+#include &quot;unity.h&quot;
+</programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_test__rulebook_8c_1a63326a1b70b6e3f070e51687798e02de"/>void <emphasis role="strong">setUp</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_test__rulebook_8c_1ab804e0f66def63262c1d6b4e3d2a2bd7"/>void <emphasis role="strong">tearDown</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_test__rulebook_8c_1af92fc128476af1021bb5af35773ffcb3"/>void <emphasis role="strong">test_rulebook</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_test__rulebook_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4"/>int <emphasis role="strong">main</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>to test <link linkend="_rulebook_8c">rulebook.c</link> file </para>
+
+<para><formalpara><title>Author</title>
+
+<para>Srikar Gade </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>0.1 </para>
+</formalpara>
+<formalpara><title>Date</title>
+
+<para>2021-11-24</para>
+</formalpara>
+<formalpara><title>Copyright</title>
+
+<para>Copyright (c) 2021 </para>
+</formalpara>
+</para>
+</section>
+</section>

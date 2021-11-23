@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_gameplay_8h_source" xml:lang="en-US">
+<title>gameplay.h</title>
+<indexterm><primary>C:/Users/venka/Desktop/C_Project/3_Implementation/inc/gameplay.h</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered">1 
+18 <emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_gameplay_8h_1a55f6bfa0bf687995310cc9f1da39d469">gameplay</link>(<emphasis role="keywordtype">char</emphasis>&#32;*,&#32;<emphasis role="keywordtype">char</emphasis>&#32;*);
+24 <emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_gameplay_8h_1a24beadb21420c2f131830cc020a3c728">take_grid</link>(<emphasis role="keywordtype">int</emphasis>,&#32;<emphasis role="keywordtype">int</emphasis>,&#32;<emphasis role="keywordtype">int</emphasis>);
+30 <emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_gameplay_8h_1a1294d68319ed849968ac93252df1d316">take_number</link>(<emphasis role="keywordtype">int</emphasis>,&#32;<emphasis role="keywordtype">int</emphasis>,&#32;<emphasis role="keywordtype">int</emphasis>,&#32;<emphasis role="keywordtype">int</emphasis>);
+</programlisting></section>

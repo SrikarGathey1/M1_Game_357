@@ -4,30 +4,31 @@
 <indexterm><primary>C:/Users/venka/Desktop/C_Project/3_Implementation/src/main.c</primary></indexterm>
 <para>
 
-<para>Main function. </para>
+<para>Main Function. </para>
  
 </para>
-<simplesect>
+<programlisting linenumbering="unnumbered">#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &quot;display.h&quot;
+#include &quot;gameplay.h&quot;
+#include &quot;rulebook.h&quot;
+</programlisting><simplesect>
     <title>Functions    </title>
         <itemizedlist>
-            <listitem><para><anchor xml:id="_main_8c_1ac2bf81c8d178fb8a48f3115c0d630fe6"/>void <emphasis role="strong">rules</emphasis> ()</para>
-
-<para>to print the rulebook for the player&apos;s reference. </para>
-</listitem>
             <listitem><para>int <link linkend="_main_8c_1a57491e4909d75f453983870d0c13269b">begin_player</link> ()</para>
 
-<para>to generate a random number based on which the player who begins the game is decided. </para>
+<para>to randomly decide the player who begins the game </para>
 </listitem>
             <listitem><para>int <link linkend="_main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4">main</link> ()</para>
 
-<para>Main function To accept the names of both the players and decide who begins the game. </para>
+<para>main function </para>
 </listitem>
         </itemizedlist>
 </simplesect>
 <section>
 <title>Detailed Description</title>
 
-<para>Main function. </para>
+<para>Main Function. </para>
 
 <para><formalpara><title>Author</title>
 
@@ -39,7 +40,7 @@
 </formalpara>
 <formalpara><title>Date</title>
 
-<para>2021-11-23</para>
+<para>2021-11-24</para>
 </formalpara>
 <formalpara><title>Copyright</title>
 
@@ -55,38 +56,12 @@
 <indexterm><primary>main.c</primary><secondary>begin_player</secondary></indexterm>
 <para><computeroutput>int begin_player ( )</computeroutput></para><para>
 
-<para>to generate a random number based on which the player who begins the game is decided. </para>
+<para>to randomly decide the player who begins the game </para>
 </para>
 
-<para>
-                <formalpara>
-                    <title>
-Parameters</title>
-                    <para>
-                    <table frame="all">
-                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
-                        <colspec colwidth="1*"/>
-                        <colspec colwidth="1*"/>
-                        <colspec colwidth="4*"/>
-                        <tbody>
-                            <row>
-<entry>in</entry><entry>r</entry><entry>
-<para>to store a random number between 0 and 20. </para>
-</entry>
-                            </row>
-                            <row>
-<entry>in</entry><entry>p</entry><entry>
-<para>to store a random number between 0 and 20. </para>
-</entry>
-                            </row>
-                        </tbody>
-                        </tgroup>
-                    </table>
-                    </para>
-                </formalpara>
-                <formalpara><title>Returns</title>
+<para><formalpara><title>Returns</title>
 
-<para>int </para>
+<para>int random number </para>
 </formalpara>
 </para>
 </section>
@@ -96,7 +71,7 @@ Parameters</title>
 <indexterm><primary>main.c</primary><secondary>main</secondary></indexterm>
 <para><computeroutput>int main ( )</computeroutput></para><para>
 
-<para>Main function To accept the names of both the players and decide who begins the game. </para>
+<para>main function </para>
 </para>
 
 <para>
@@ -111,33 +86,33 @@ Parameters</title>
                         <colspec colwidth="4*"/>
                         <tbody>
                             <row>
+<entry>in</entry><entry>three</entry><entry>
+<para>number of available circles in grid 3 </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>five</entry><entry>
+<para>number of available circles in grid 5 </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>seven</entry><entry>
+<para>number of available circles in grid 7 </para>
+</entry>
+                            </row>
+                            <row>
 <entry>in</entry><entry>player1</entry><entry>
-<para>to store the name of the first player. </para>
+<para>name of the first player </para>
 </entry>
                             </row>
                             <row>
 <entry>in</entry><entry>player2</entry><entry>
-<para>to store the name of the second player. </para>
+<para>name of the second player </para>
 </entry>
                             </row>
                             <row>
-<entry></entry><entry>three</entry><entry>
-<para>to store the value of the available circles in grid 3. </para>
-</entry>
-                            </row>
-                            <row>
-<entry></entry><entry>five</entry><entry>
-<para>to store the value of the available circles in grid 5. </para>
-</entry>
-                            </row>
-                            <row>
-<entry></entry><entry>seven</entry><entry>
-<para>to store the value of the available circles in grid 7. </para>
-</entry>
-                            </row>
-                            <row>
-<entry></entry><entry>game</entry><entry>
-<para>to store the result of the game played.</para>
+<entry>in</entry><entry>game</entry><entry>
+<para>to find out the winner of the game</para>
 </entry>
                             </row>
                         </tbody>
