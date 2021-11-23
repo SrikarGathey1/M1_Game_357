@@ -1,22 +1,58 @@
-#-*- Makefile -*-
-# target: dependencies
-#        action
+# Name of the project
+PROJECT_NAME = Oskar
+
+# Output directory
+BUILD = build
+
+# All source code files
+SRC = src/display.c\
+    src/gameplay.c\
+    src/main.c\
+    src/rulebook.c
+
+# All test source files
+TEST_SRC = src/display.c\
+test/test_display.c\
+unity/unity.c\
+src/gameplay.c\
+test/test_gameplay.c\
+src/rulebook.c\
+test/test_rulebook.c
+
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+
+# All include folders with header files
+INC	= -Iinc\
+-Iunity\
+
+# Project Output name
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+
+# Document files
+DOCUMENTATION_OUTPUT = documentation/html
+
+# Default target built
+$(PROJECT_NAME):all
 
 
+all: $(SRC) $(BUILD)
+	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
 
-output: main.o display.o gameplay.o
-	gcc main.o display.o gameplay.o -o output
+# Call `make run` to run the application
+run:$(PROJECT_NAME)
+	./$(PROJECT_OUTPUT).out
 
-main.o: src/main.c
-	gcc -c main.c
+# Document the code using Doxygen
+doc:
+	make -C ./documentation
 
-display.o: src/display.c inc/display.h
-	gcc -c display.c
+# Build and run the unit tests
+test:$(BUILD)
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
+	./$(TEST_OUTPUT)
 
-gameplay.o: src/gameplay.c inc/gameplay.h
-	gcc -c gameplay.c
-
-clean:
-	rm *.o output
+# Create new build folder if not present
+$(BUILD):
+	mkdir build
 	
     
