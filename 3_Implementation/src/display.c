@@ -1,6 +1,5 @@
 /**
- * @file display.c
- * Used to display the grid diagrammatically during different valid states.
+ * @file display.c Used to display the grid diagrammatically during different valid states.
  * @author Srikar Gade
  * @brief 
  * @version 0.1

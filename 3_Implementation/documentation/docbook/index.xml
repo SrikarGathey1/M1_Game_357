@@ -6,6 +6,8 @@
 <chapter>
     <title>File Documentation</title>
     <xi:include href="display_8c.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="gameplay_8c.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="main_8c.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </chapter>
 <index/>
 </book>

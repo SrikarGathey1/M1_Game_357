@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_gameplay_8c" xml:lang="en-US">
+<title>C:/Users/venka/Desktop/C_Project/3_Implementation/src/gameplay.c File Reference</title>
+<indexterm><primary>C:/Users/venka/Desktop/C_Project/3_Implementation/src/gameplay.c</primary></indexterm>
+<para>
+
+<para>For simulating game play. </para>
+ 
+</para>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_gameplay_8c_1ad2482a23d1ab961bd00ad653d66ab18c">take_grid</link> (int three, int five, int seven)</para>
+
+<para>for taking a valid grid value and prompting the user to give a valid grid value. </para>
+</listitem>
+            <listitem><para>int <link linkend="_gameplay_8c_1a98c5566fb1d1078ce42c4000b09955cd">take_number</link> (int three, int five, int seven, int grid)</para>
+
+<para>to prompt the user until she enters a valid value </para>
+</listitem>
+            <listitem><para>int <link linkend="_gameplay_8c_1a1f4ae9c18dd75e1cdb5f4052e9146a85">gameplay</link> (char *player1, char *player2)</para>
+
+<para>to facilitate the gameplay </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>For simulating game play. </para>
+
+<para><formalpara><title>Author</title>
+
+<para>Srikar Gade </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>0.1 </para>
+</formalpara>
+<formalpara><title>Date</title>
+
+<para>2021-11-23</para>
+</formalpara>
+<formalpara><title>Copyright</title>
+
+<para>Copyright (c) 2021 </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_gameplay_8c_1a1f4ae9c18dd75e1cdb5f4052e9146a85"/><section>
+    <title>gameplay()</title>
+<indexterm><primary>gameplay</primary><secondary>gameplay.c</secondary></indexterm>
+<indexterm><primary>gameplay.c</primary><secondary>gameplay</secondary></indexterm>
+<para><computeroutput>int gameplay (char * player1, char * player2)</computeroutput></para><para>
+
+<para>to facilitate the gameplay </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>out</entry><entry>player1</entry><entry>
+<para>to store the name of the first player. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>out</entry><entry>player2</entry><entry>
+<para>to store the name of the second player. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>three</entry><entry>
+<para>to store the value of the available circles in grid 3. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>five</entry><entry>
+<para>to store the value of the available circles in grid 5. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>seven</entry><entry>
+<para>to store the value of the available circles in grid 7. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>grid</entry><entry>
+<para>to store the value of grid given by the user. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>available</entry><entry>
+<para>to store the available number of circles in the entire grid. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>number</entry><entry>
+<para>to store the number of circles to be removed from the chosen grid. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>count</entry><entry>
+<para>to keep track of both the players&apos; moves.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>int </para>
+</formalpara>
+</para>
+
+<para>This loop is written to continue the game as long as the available number of circles is greater than 1.</para>
+</section>
+<anchor xml:id="_gameplay_8c_1ad2482a23d1ab961bd00ad653d66ab18c"/><section>
+    <title>take_grid()</title>
+<indexterm><primary>take_grid</primary><secondary>gameplay.c</secondary></indexterm>
+<indexterm><primary>gameplay.c</primary><secondary>take_grid</secondary></indexterm>
+<para><computeroutput>int take_grid (int three, int five, int seven)</computeroutput></para><para>
+
+<para>for taking a valid grid value and prompting the user to give a valid grid value. </para>
+</para>
+
+<para>if 0 is returned the prompt ask for the grid value again. if -1 is returned terminate the game. only valid inputs are 3, 5 and 7. if the chosen grid has no available circles, that particular grid is no longer a valid input.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>three</entry><entry>
+<para>to store the value of the available circles in grid 3. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>five</entry><entry>
+<para>to store the value of the available circles in grid 5. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>seven</entry><entry>
+<para>to store the value of the available circles in grid 7. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>grid</entry><entry>
+<para>to store the value of grid given by the user. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>g</entry><entry>
+<para>to get the number of inputs scanned. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>int </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_gameplay_8c_1a98c5566fb1d1078ce42c4000b09955cd"/><section>
+    <title>take_number()</title>
+<indexterm><primary>take_number</primary><secondary>gameplay.c</secondary></indexterm>
+<indexterm><primary>gameplay.c</primary><secondary>take_number</secondary></indexterm>
+<para><computeroutput>int take_number (int three, int five, int seven, int grid)</computeroutput></para><para>
+
+<para>to prompt the user until she enters a valid value </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>three</entry><entry>
+<para>to store the value of the available circles in grid 3. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>five</entry><entry>
+<para>to store the value of the available circles in grid 5. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>seven</entry><entry>
+<para>to store the value of the available circles in grid 7. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>grid</entry><entry>
+<para>to store the value of grid given by the user. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>available</entry><entry>
+<para>to store the available number of circles in the entire grid </para>
+</entry>
+                            </row>
+                            <row>
+<entry>number</entry><entry>
+<para>to store the number of circles to be removed from the chosen grid </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>int </para>
+</formalpara>
+</para>
+</section>
+</section>
+</section>

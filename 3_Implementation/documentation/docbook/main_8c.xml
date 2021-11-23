@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_main_8c" xml:lang="en-US">
+<title>C:/Users/venka/Desktop/C_Project/3_Implementation/src/main.c File Reference</title>
+<indexterm><primary>C:/Users/venka/Desktop/C_Project/3_Implementation/src/main.c</primary></indexterm>
+<para>
+
+<para>Main function. </para>
+ 
+</para>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_main_8c_1ac2bf81c8d178fb8a48f3115c0d630fe6"/>void <emphasis role="strong">rules</emphasis> ()</para>
+
+<para>to print the rulebook for the player&apos;s reference. </para>
+</listitem>
+            <listitem><para>int <link linkend="_main_8c_1a57491e4909d75f453983870d0c13269b">begin_player</link> ()</para>
+
+<para>to generate a random number based on which the player who begins the game is decided. </para>
+</listitem>
+            <listitem><para>int <link linkend="_main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4">main</link> ()</para>
+
+<para>Main function To accept the names of both the players and decide who begins the game. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Main function. </para>
+
+<para><formalpara><title>Author</title>
+
+<para>Srikar Gade </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>0.1 </para>
+</formalpara>
+<formalpara><title>Date</title>
+
+<para>2021-11-23</para>
+</formalpara>
+<formalpara><title>Copyright</title>
+
+<para>Copyright (c) 2021 </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_main_8c_1a57491e4909d75f453983870d0c13269b"/><section>
+    <title>begin_player()</title>
+<indexterm><primary>begin_player</primary><secondary>main.c</secondary></indexterm>
+<indexterm><primary>main.c</primary><secondary>begin_player</secondary></indexterm>
+<para><computeroutput>int begin_player ( )</computeroutput></para><para>
+
+<para>to generate a random number based on which the player who begins the game is decided. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>r</entry><entry>
+<para>to store a random number between 0 and 20. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>p</entry><entry>
+<para>to store a random number between 0 and 20. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>int </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>main.c</secondary></indexterm>
+<indexterm><primary>main.c</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>int main ( )</computeroutput></para><para>
+
+<para>Main function To accept the names of both the players and decide who begins the game. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>player1</entry><entry>
+<para>to store the name of the first player. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>player2</entry><entry>
+<para>to store the name of the second player. </para>
+</entry>
+                            </row>
+                            <row>
+<entry></entry><entry>three</entry><entry>
+<para>to store the value of the available circles in grid 3. </para>
+</entry>
+                            </row>
+                            <row>
+<entry></entry><entry>five</entry><entry>
+<para>to store the value of the available circles in grid 5. </para>
+</entry>
+                            </row>
+                            <row>
+<entry></entry><entry>seven</entry><entry>
+<para>to store the value of the available circles in grid 7. </para>
+</entry>
+                            </row>
+                            <row>
+<entry></entry><entry>game</entry><entry>
+<para>to store the result of the game played.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>int </para>
+</formalpara>
+</para>
+</section>
+</section>
+</section>
