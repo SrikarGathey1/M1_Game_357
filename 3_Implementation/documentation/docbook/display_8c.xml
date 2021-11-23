@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_display_8c" xml:lang="en-US">
+<title>C:/Users/venka/Desktop/C_Project/3_Implementation/src/display.c File Reference</title>
+<indexterm><primary>C:/Users/venka/Desktop/C_Project/3_Implementation/src/display.c</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_display_8c_1af9e30e3d0acc658ce4fdee9c17e524f7">display_circle</link> (int three, int five, int seven)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_display_8c_1a42789430a9d5e7f3729bf69c9398fc52"/>void <emphasis role="strong">invalid</emphasis> ()</para>
+
+<para>to handle invalid values. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Used to display the grid diagrammatically during different valid states. <formalpara><title>Author</title>
+
+<para>Srikar Gade </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>0.1 </para>
+</formalpara>
+<formalpara><title>Date</title>
+
+<para>2021-11-23</para>
+</formalpara>
+<formalpara><title>Copyright</title>
+
+<para>Copyright (c) 2021 </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_display_8c_1af9e30e3d0acc658ce4fdee9c17e524f7"/><section>
+    <title>display_circle()</title>
+<indexterm><primary>display_circle</primary><secondary>display.c</secondary></indexterm>
+<indexterm><primary>display.c</primary><secondary>display_circle</secondary></indexterm>
+<para><computeroutput>void display_circle (int three, int five, int seven)</computeroutput></para>
+<para>The function takes in valid state values and output the corresponding state diagrams.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>three</entry><entry>
+<para>used to store the number of circles to be printed in the third grid.(valid values range from 0 to 3) </para>
+</entry>
+                            </row>
+                            <row>
+<entry>three_top</entry><entry>
+<para>used for printing the top row of the third grid. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>three_bottom</entry><entry>
+<para>used for printing the bottom row of the third grid. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>five</entry><entry>
+<para>used to store the number of circles to be printed in the fifth grid.(valid values range from 0 to 5) </para>
+</entry>
+                            </row>
+                            <row>
+<entry>five_top</entry><entry>
+<para>used for printing the top row of the fifth grid. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>five_bottom</entry><entry>
+<para>used for printing the bottom row of the fifth grid. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>seven</entry><entry>
+<para>used to store the number of circles to be printed in the seven grid. (valid values range from 0 to 7) </para>
+</entry>
+                            </row>
+                            <row>
+<entry>seven_top</entry><entry>
+<para>used for printing the top row of the seventh grid </para>
+</entry>
+                            </row>
+                            <row>
+<entry>seven_bottom</entry><entry>
+<para>used for printing the bottom row of the seventh grid </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+</section>
