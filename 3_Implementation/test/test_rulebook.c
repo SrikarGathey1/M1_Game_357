@@ -1,6 +1,21 @@
+/**
+ * @file test_rulebook.c
+ * @author Srikar Gade
+ * @brief to test rulebook.c file
+ * @version 0.1
+ * @date 2021-11-24
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
+
 #include <stdio.h>
-#include "../inc/rulebook.h"
-#include "../unity/unity.h"
+#include "rulebook.h"
+#include "unity.h"
+
+
+
 
 void setUp()
 {

@@ -1,7 +1,31 @@
+/**
+ * @file gameplay.c
+ * @author Srikar Gade
+ * @brief To facilitate game play
+ * @version 0.1
+ * @date 2021-11-24
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
+
 #include <stdio.h>
 
-// 0 if the grid is invalid 1 if valid 2 if terminate
-// if 0 is returned the prompt asking for grid has to be repeated again
+/// 0 if the grid is invalid 1 if valid 2 if terminate
+/// if 0 is returned the prompt asking for grid has to be repeated again
+
+/**
+ * @brief 
+ * 
+ * @param[out] three number of available circles in grid 3
+ * @param[out] five number of available circles in grid 5
+ * @param[out] seven number of available circles in grid 7
+ * @param[in] grid chosen grid
+ * @param[in] g number of inputs scanned
+ * @return int grid value
+ */
+
 int take_grid(int three, int five, int seven)
 {
     int grid, g;
@@ -63,6 +87,17 @@ int take_grid(int three, int five, int seven)
     }
 }
 
+/**
+ * @brief to accept a valid value of number of circles to be removed
+ * 
+ * @param[out] three number of available circles in grid 3 
+ * @param[out] five number of available circles in grid 5
+ * @param[out] seven number of available circles in grid 7
+ * @param[out] grid chosen grid 
+ * @param[in] number number of circles to be removed
+ * @return int number of circles to be removed
+ */
+
 int take_number(int three, int five, int seven, int grid)
 {
     if(grid == 1)
@@ -120,6 +155,20 @@ int take_number(int three, int five, int seven, int grid)
     }
     
 }
+
+/**
+ * @brief 
+ * 
+ * @param[out] player1 name of the first player 
+ * @param[out] player2 name of the second player
+ * @param[in] available number of available circles in the grids
+ * @param[in] three number of available circles in grid 3 
+ * @param[in] five number of available circles in grid 5
+ * @param[in] seven number of available circles in grid 7
+ * @param[in] grid chosen grid 
+ * @param[in] number number of circles to be removed
+ * @return int number of moves played by both the player
+ */
 
 int gameplay(char *player1, char *player2)
 {

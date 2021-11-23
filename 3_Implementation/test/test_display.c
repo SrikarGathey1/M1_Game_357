@@ -1,6 +1,20 @@
+/**
+ * @file test_display.c
+ * @author Srikar Gade
+ * @brief For testing display.c file
+ * @version 0.1
+ * @date 2021-11-24
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
+
+
 #include <stdio.h>
-#include "../inc/display.h"
-#include "../unity/unity.h"
+#include "display.h"
+#include "unity.h"
+
 
 void setUp()
 {

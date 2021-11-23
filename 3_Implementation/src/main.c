@@ -1,9 +1,28 @@
+/**
+ * @file main.c
+ * @author Srikar Gade
+ * @brief Main Function
+ * @version 0.1
+ * @date 2021-11-24
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
-#include "./inc/display.h"
-#include "./inc/gameplay.h"
-#include "./inc/rulebook.h"
+#include "display.h"
+#include "gameplay.h"
+#include "rulebook.h"
 
+/**
+ * @brief to randomly decide the player who begins the game
+ * 
+ * @return int random number
+ */
 
 int begin_player();
 
@@ -14,7 +33,17 @@ int begin_player()
     return r * p;
 }
 
-
+/**
+ * @brief main function
+ * @param[in] three number of available circles in grid 3 
+ * @param[in] five number of available circles in grid 5
+ * @param[in] seven number of available circles in grid 7
+ * @param[in] player1 name of the first player
+ * @param[in] player2 name of the second player
+ * @param[in] game to find out the winner of the game
+ *  
+ * @return int 
+ */
 int main() 
 {
   int three = 3, five = 5, seven = 7, game; 

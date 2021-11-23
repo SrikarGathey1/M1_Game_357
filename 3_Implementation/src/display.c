@@ -1,6 +1,31 @@
+/**
+ * @file display.c
+ * @author Srikar Gade
+ * @brief to display the grid diagram based on the given state values
+ * @version 0.1
+ * @date 2021-11-24
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include <stdio.h>
 ///0 - invalid state
 ///1 - valid state
+
+/**
+ * @brief to display the corresponding grid value based on the parameters.
+ * 
+ * @param three number of available circles in grid 3
+ * @param three_top state of the top row of grid 3
+ * @param three_bottom state of the bottom row of grid 3
+ * @param five number of available circles in grid 5
+ * @param five_top state of the top row of grid 5
+ * @param five_bottom state of the bottom row of grid 5
+ * @param seven number of available circles in grid 7
+ * @param seven_top state of the top row of grid 7
+ * @param seven_bottom state of the bottom row of grid 7
+ * @return int 0 if the state is invalid, 1 if the given parameters represent a valid state
+ */
 int display_circle(int three, int five, int seven)
 {
     if(three > 3 || three < 0)

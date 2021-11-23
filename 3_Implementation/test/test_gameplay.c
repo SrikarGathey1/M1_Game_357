@@ -1,6 +1,17 @@
+/**
+ * @file test_gameplay.c
+ * @author Srikar Gade
+ * @brief To test gameplay function
+ * @version 0.1
+ * @date 2021-11-24
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #include <stdio.h>
-#include "../inc/gameplay.h"
-#include "../unity/unity.h"
+#include "gameplay.h"
+#include "unity.h"
 
 
 void setUp()
