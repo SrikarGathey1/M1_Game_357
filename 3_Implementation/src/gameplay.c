@@ -1,8 +1,22 @@
 #include <stdio.h>
 #include "gameplay.h"
 
-// 0 if the grid is invalid 1 if valid 2 if terminate
-// if 0 is returned the prompt asking for grid has to be repeated again
+/// if 0 is returned the prompt ask for the grid value again.
+/// if -1 is returned terminate the game.
+/// only valid inputs are 3, 5 and 7.
+/// if the chosen grid has no available circles, that particular grid is no longer a valid input.
+
+/**
+ * @brief for taking a valid grid value and prompting the user to give a valid grid value.
+ * 
+ * @param three to store the value of the available circles in grid 3.
+ * @param five to store the value of the available circles in grid 5.
+ * @param seven to store the value of the available circles in grid 7.
+ * @param grid to store the value of grid given by the user.
+ * @param g to get the number of inputs scanned.
+ * @return int 
+ */
+
 int take_grid(int three, int five, int seven)
 {
     int grid, g;
@@ -64,6 +78,18 @@ int take_grid(int three, int five, int seven)
     }
 }
 
+/**
+ * @brief to prompt the user until she enters a valid value
+ * 
+ * @param three to store the value of the available circles in grid 3. 
+ * @param five to store the value of the available circles in grid 5.
+ * @param seven to store the value of the available circles in grid 7.
+ * @param grid to store the value of grid given by the user.
+ * @param available to store the available number of circles in the entire grid
+ * @param number to store the number of circles to be removed from the chosen grid
+ * @return int 
+ */
+
 int take_number(int three, int five, int seven, int grid)
 {
     if(grid == 1)
@@ -122,6 +148,22 @@ int take_number(int three, int five, int seven, int grid)
     
 }
 
+/**
+ * @brief to facilitate the gameplay
+ * 
+ * @param[out] player1 to store the name of the first player.
+ * @param[out] player2 to store the name of the second player.
+ * @param[in] three to store the value of the available circles in grid 3. 
+ * @param[in] five to store the value of the available circles in grid 5.
+ * @param[in] seven to store the value of the available circles in grid 7.
+ * @param[in] grid to store the value of grid given by the user.
+ * @param[in] available to store the available number of circles in the entire grid.
+ * @param[in] number to store the number of circles to be removed from the chosen grid.
+ * @param[in] count to keep track of both the players' moves.
+ *  
+ * @return int 
+ */
+
 int gameplay(char *player1, char *player2)
 {
     int three = 3, five = 5, seven = 7;
@@ -129,6 +171,10 @@ int gameplay(char *player1, char *player2)
     int count = 0;
     int number, flag = 0;
     int grid;
+    /**
+     * @brief This loop is written to continue the game as long as the available number of circles is greater than 1.
+     * 
+     */
     while(available > 1)
     {
         count++;
