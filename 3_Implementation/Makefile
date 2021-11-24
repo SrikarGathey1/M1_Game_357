@@ -58,6 +58,19 @@ run:$(PROJECT_NAME)
 # Document the code using Doxygen
 doc:
 	make -C ./documentation
+		
+analyze: test memcheck staticcheck coverage sanitize_check
+
+staticcheck:
+	cppcheck --enable=all -iunity .
+
+memcheck:
+	valgrind ./$(TEST_OUTPUT)
+
+sanitize_check:
+	gcc -fsanitize=address -fno-omit-frame-pointer $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
+	./$(TEST_OUTPUT)
+
 
 # Build and run the unit tests
 test:$(BUILD)
