@@ -1,3 +1,4 @@
 [![Windows C/C++ CI](https://github.com/SrikarGathey1/M1_Game_357/actions/workflows/Windows_c-cpp.yml/badge.svg)](https://github.com/SrikarGathey1/M1_Game_357/actions/workflows/Windows_c-cpp.yml)
 [![Linux C/C++ CI](https://github.com/SrikarGathey1/M1_Game_357/actions/workflows/linux_c-cpp.yml/badge.svg)](https://github.com/SrikarGathey1/M1_Game_357/actions/workflows/linux_c-cpp.yml)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/7ec7343386a343b6adbc6267b71a3e5a)](https://www.codacy.com/gh/SrikarGathey1/M1_Game_357/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SrikarGathey1/M1_Game_357&amp;utm_campaign=Badge_Grade)
+[![cppcheck-action-test](https://github.com/SrikarGathey1/M1_Game_357/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/SrikarGathey1/M1_Game_357/actions/workflows/cppcheck.yml)
